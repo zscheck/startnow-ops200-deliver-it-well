@@ -1,5 +1,5 @@
 # Deliver it Well - Circle CI
-
+ 
 ## Introduction
 
 Circle CI is a SaaS tool that easily allows a programmer to add **continuous integration** to their projects. By writing unit tests in a project, a development team is able to merge and push code several times a day without running into merge conflicts or broken code on production.
