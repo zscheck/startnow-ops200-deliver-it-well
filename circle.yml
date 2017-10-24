@@ -2,8 +2,7 @@ deployment:
   prod:
     branch: master
     heroku:
-      appname: deliver-it-well
+      appname: zs-deliver-it-well
 machine:
   node:
     version: 8.1.4
-    
