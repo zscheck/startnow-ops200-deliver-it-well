@@ -37,4 +37,14 @@ describe('server/app.js', function() {
       done();
     });
   });
+
+  it("page says You're serving up the public folder, but do your tests pass?", (done) => {
+    chai.request(server)
+      .get('/')
+      .end((err, res) => {
+        expect(err).not.exist;
+        expect(JSON.stringify(res.text)).to.contain("You're serving up the public folder, but do your tests pass?");
+        done();
+      });
+    });
 })
