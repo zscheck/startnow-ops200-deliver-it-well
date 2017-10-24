@@ -1,0 +1,28 @@
+{
+  "name": "deliver-it-well",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OriginCodeAcademy/startnow-ops200-deliver-it-well.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OriginCodeAcademy/startnow-ops200-deliver-it-well/issues"
+  },
+  "homepage": "https://github.com/OriginCodeAcademy/startnow-ops200-deliver-it-well#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0",
+    "chai": "^4.1.1",
+    "chai-http": "^3.0.0"
+  }
+}
